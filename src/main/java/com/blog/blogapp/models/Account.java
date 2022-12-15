@@ -25,5 +25,4 @@ public class Account implements Serializable {
     @OneToMany(mappedBy = "account")
     private List<Post> posts;
 
-    //more to writ
 }
